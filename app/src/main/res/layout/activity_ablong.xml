@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ablong">
+
+    <Button
+        android:id="@+id/btnPrev7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        tools:layout_editor_absoluteX="27dp"
+        tools:layout_editor_absoluteY="534dp" />
+
+    <TextView
+        android:id="@+id/textview7"
+        android:layout_width="379dp"
+        android:layout_height="102dp"
+        android:text=" Oblong. An oblong-shaped leaf is relatively narrow, the sides are parallel to each other. This leaf is much longer than wide."
+        tools:layout_editor_absoluteX="23dp"
+        tools:layout_editor_absoluteY="416dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="381dp"
+        android:layout_height="360dp"
+        app:srcCompat="@drawable/longleaf"
+        tools:layout_editor_absoluteX="14dp"
+        tools:layout_editor_absoluteY="23dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

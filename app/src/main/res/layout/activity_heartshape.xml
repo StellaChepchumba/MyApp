@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/btnNext3"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".heartshape">
+
+    <ImageView
+        android:id="@+id/heart"
+        android:layout_width="0dp"
+        android:layout_height="315dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="36dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/heart" />
+
+    <Button
+        android:id="@+id/btnPrev2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        tools:layout_editor_absoluteX="50dp"
+        tools:layout_editor_absoluteY="514dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        tools:layout_editor_absoluteX="290dp"
+        tools:layout_editor_absoluteY="509dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="369dp"
+        android:layout_height="105dp"
+        android:text="This kind of leaf is also known as compound leaf.it is found mainy in plants which grows in swamps and waterbodies e.g arrow roots."
+        tools:layout_editor_absoluteX="23dp"
+        tools:layout_editor_absoluteY="368dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
